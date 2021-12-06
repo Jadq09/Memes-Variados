@@ -16,6 +16,10 @@ module.exports = (app) => {
         res.render('acerca')
     })
 
+    app.get('/especial_navidad', (req, res) => {
+        res.render('especial_navidad')
+    })
+
     app.get('/reportar', (req, res) => {
         res.render('reportar')
     })
